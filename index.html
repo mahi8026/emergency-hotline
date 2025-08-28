@@ -32,5 +32,103 @@
             <p class="text-white mt-1">Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
         </div>
     </div>
+
+    <section>
+        <section class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Example Card -->
+        <div class="bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
+            <div class="flex justify-between items-center">
+                
+                <img src="assets/emergency.png" class="w-7" alt="">
+                <span class="text-red-500 cursor-pointer" onclick="addLove()"><span><i class="fa-solid fa-heart"></i></span></span>
+            </div>
+            <h2 class="font-bold mt-2">National Emergency Number</h2>
+            <p class="text-gray-500">National Emergency </p>
+            <p class="text-xl font-bold text-gray-700 mt-1">999</p>
+            <span class="bg-gray-200 text-gray-600 w-16 text-xs px-2 py-1 rounded">All</span>
+            <div class="flex justify-between mt-3">
+                <button onclick="copyNumber('999')" class="border px-3 py-1 font-bold rounded flex items-center space-x-1"><span><i class="fa-solid fa-copy"></i></span>Copy</button>
+                <button onclick="makeCall('National Emergency Number','999')" class="bg-green-600 text-white px-3 py-1 rounded flex items-center space-x-1"><span class="mr-2"><i class="fa-solid fa-phone"></i></span>Call</button>
+            </div>
+        </div>
+      <div class="bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
+        <div class="flex justify-between items-center">
+            <img src="assets/police.png" class="w-7" alt="">
+            <span class="text-red-500 cursor-pointer" onclick="addLove()">💗</span>
+          
+        </div>
+        <h2 class="font-bold mt-2">Police Helpline Number</h2>
+        <p class="text-gray-500">Police Helpline</p>
+        <p class="text-xl font-bold text-gray-700 mt-1">999</p>
+        <span class="bg-gray-200 text-gray-600 w-16 text-xs px-2 py-1 rounded">Police</span>
+        <div class="flex justify-between mt-3">
+          <button onclick="copyNumber('999')" class="border px-3 py-1 rounded flex items-center space-x-1"><span><span><i class="fa-solid fa-copy"></i></span>Copy</span></button>
+          <button onclick="makeCall('Police Helpline','999')" class="bg-green-600 text-white px-3 py-1 rounded flex items-center space-x-1"><span class="mr-2"><i class="fa-solid fa-phone"></i></span> <span>Call</span></button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
+        <div class="flex justify-between items-center">
+          <span class="text-red-500 cursor-pointer" onclick="addLove()">💗</span>
+          
+        </div>
+        <h2 class="font-bold mt-2">Fire Service Number</h2>
+        <p class="text-gray-500">Fire Service</p>
+        <p class="text-xl font-bold text-gray-700 mt-1">999</p>
+        <span class="bg-gray-200 text-gray-600 w-16 text-xs px-2 py-1 rounded">Fire</span>
+        <div class="flex justify-between mt-3">
+          <button onclick="copyNumber('999')" class="border px-3 py-1 rounded flex items-center space-x-1"><span><span><i class="fa-solid fa-copy"></i></span>Copy</span></button>
+          <button onclick="makeCall('Fire Service','999')" class="bg-green-600 text-white px-3 py-1 rounded flex items-center space-x-1"><span class="mr-2"><i class="fa-solid fa-phone"></i></span> <span>Call</span></button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
+        <div class="flex justify-between items-center">
+          <span class="text-red-500 cursor-pointer" onclick="addLove()">💗</span>
+          <span class="bg-yellow-100 text-yellow-600 text-xs px-2 py-1 rounded">Ambulance</span>
+        </div>
+        <h2 class="font-bold mt-2">Ambulance Service</h2>
+        <p class="text-gray-500">Ambulance</p>
+        <p class="text-xl font-bold text-gray-700 mt-1">1994-999999</p>
+        <span class="bg-gray-200 text-gray-600 w-16 text-xs px-2 py-1 rounded">Railway</span>
+        <div class="flex justify-between mt-3">
+          <button onclick="copyNumber('1994-999999')" class="border px-3 py-1 rounded flex items-center space-x-1"><span> <span><i class="fa-solid fa-copy"></i></span>Copy</span></button>
+          <button onclick="makeCall('Ambulance Service','1994-999999')" class="bg-green-600 text-white px-3 py-1 rounded flex items-center space-x-1"><span class="mr-2"><i class="fa-solid fa-phone"></i></span> <span>Call</span></button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
+        <div class="flex justify-between items-center">
+          <span class="text-red-500 cursor-pointer" onclick="addLove()">💗</span>
+          <span class="bg-purple-100 text-purple-600 text-xs px-2 py-1 rounded">Women & Child</span>
+        </div>
+        <h2 class="font-bold mt-2">Women & Child Helpline</h2>
+        <p class="text-gray-500">Women & Child</p>
+        <p class="text-xl font-bold text-gray-700 mt-1">109</p>
+        <span class="bg-gray-200 text-gray-600 w-16 text-xs px-2 py-1 rounded">Railway</span>
+        <div class="flex justify-between mt-3">
+          <button onclick="copyNumber('109')" class="border px-3 py-1 rounded flex items-center space-x-1"> <span> <span><i class="fa-solid fa-copy"></i></span>Copy</span></button>
+          <button onclick="makeCall('Women & Child Helpline','109')" class="bg-green-600 text-white px-3 py-1 rounded flex items-center space-x-1"><span class="mr-2"><i class="fa-solid fa-phone"></i></span> <span>Call</span></button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md p-4 flex flex-col justify-between">
+        <div class="flex justify-between items-center">
+          <span class="text-red-500 cursor-pointer" onclick="addLove()">💗</span>
+          <span class="bg-orange-100 text-orange-600 text-xs px-2 py-1 rounded">Railway</span>
+        </div>
+        <h2 class="font-bold mt-2">Railway Helpline</h2>
+        <p class="text-gray-500">Railway Helpline</p>
+        <p class="text-xl font-bold text-gray-700 mt-1">163</p>
+        <span class="bg-gray-200 text-gray-600 w-16 text-xs px-2 py-1 rounded">Railway</span>
+        <div class="flex justify-between mt-3">
+          <button onclick="copyNumber('163')" class="border  px-3 py-1 rounded flex items-center space-x-1"><span><span><i class="fa-solid fa-copy"></i></span>Copy</span></button>
+          <button onclick="makeCall('Railway Helpline','163')" class="bg-green-600 text-white px-3 py-1 rounded flex items-center space-x-1"><span class="mr-2"><i class="fa-solid fa-phone"></i></span> <span>Call</span></button>
+        </div>
+      </div>
+
+    </section>
+
+    </section>
 </body>
 </html>
