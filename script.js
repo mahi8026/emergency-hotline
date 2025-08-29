@@ -1,9 +1,9 @@
 let love = 0;
-    let coins = 100;
-    let copies = 0;
-    const starCost = 20; 
+  let coins = 100;
+  let copies = 0;
+  const coinCost = 20; 
 
-    function addLove() {
+   function addLove() {
       love++;
       document.getElementById("loveCount").textContent = " " + love;
     }
@@ -16,15 +16,15 @@ let love = 0;
     }
 
     function makeCall(service, number) {
-      if (coins < starCost) {
-        alert("Not enough 🪙 coins to make a call!");
+      if (coins < coinCost) {
+        alert("Not enough coins to make a call!");
         return;
       }
-      coins -= starCost;
-      document.getElementById("starCount").textContent = " " + coins;
+      coins -= coinCost;
+      document.getElementById("coinCount").textContent = " " + coins;
       alert(`Calling ${service} (${number})`);
 
-      // add to history
+      // add  history part
       let history = document.getElementById("callHistory");
       let time = new Date().toLocaleTimeString();
       let li = document.createElement("li");
